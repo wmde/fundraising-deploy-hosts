@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+import argparse
+import json
+from datetime import datetime
+
+
+def get_args():
+    parser = argparse.ArgumentParser(
+        description='Update host name list for test branch deployment')
+    parser.add_argument(
+        'branch_name', help='Branch name to be deployed on the host')
+    parser.add_argument(
+        '--user', help='Name of the person doing the deployment. Can be user name or full name.')
+    parser.add_argument(
+        '--inputfile', help='Host name file (default: deployments.json)', default='deployments.json')
+    parser.add_argument('--repository', help='URL of the GitHub repository that the branch belongs to. (default: https://github.com/wmde/FundraisingFrontend)',
+                        default='https://github.com/wmde/FundraisingFrontend')
+    return parser.parse_args()
+
+
+def read_deploys(deployments_file):
+    with open(deployments_file, 'r') as f:
+        return json.load(f)
+
+
+def get_host_index(deploys, branch_name):
+    # When an entry for a branch, exists, get its index.
+    # Otherwise use the index of the last entry (because the host list is ordered by descending deploy date)
+    return next(
+        (i for i, item in enumerate(deploys) if item['branch'] == branch_name),
+        len(deploys) - 1
+    )
+
+
+def update_deploys(deploys, host_index, branch_name, repository, user):
+    host = deploys[host_index].get('host')
+    deploys[host_index] = {
+        'host': host,
+        'branch': branch_name,
+        'repository': repository,
+        'deployedOn': datetime.today().isoformat(sep=' ', timespec='seconds')
+    }
+    if user:
+        deploys[host_index]['deployedBy'] = user
+    # Sort by deploy date so the last deploy is at the top
+    return sorted(deploys, key=lambda k: k.get('deployedOn', ''), reverse=True)
+
+
+def write_deploys(deploys, deployments_file):
+    with open(deployments_file, 'w') as f:
+        json.dump(deploys, f, indent=4)
+
+
+if __name__ == '__main__':
+    args = get_args()
+    deploys = read_deploys(args.inputfile)
+    host_index = get_host_index(deploys, args.branch_name)
+    new_deploys = update_deploys(
+        deploys, host_index, args.branch_name, args.repository, args.user)
+    write_deploys(new_deploys, args.inputfile)
+    print(deploys[host_index]['host'])
