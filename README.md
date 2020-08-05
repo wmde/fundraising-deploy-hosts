@@ -5,10 +5,12 @@ names and deployed branches. You can use this inside an Ansible playbook
 to determine a host name when deploying a test branch.
 
 Usage:
-	get_deploy_host [-h] [--user USER] [--inputfile INPUTFILE]
-                       [--repository REPOSITORY]
-                       branch_name
-	
+```
+get_deploy_host [-h] [--user USER] [--inputfile INPUTFILE]
+				   [--repository REPOSITORY]
+				   branch_name
+```
+
 `branch_name` is the only required parameter.
 
 
