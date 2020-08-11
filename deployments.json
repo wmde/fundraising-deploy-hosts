@@ -1,20 +1,20 @@
 [
     {
-        "host": "test-spenden-3.wikimedia.de",
-        "branch": "testing-a-feature",
-        "deployedOn": "2020-08-05 17:05:53",
-        "deployedBy": "gbirke"
+        "host": " testing01.wikimedia.customers.manitu.net"
     },
     {
-        "host": "test-spenden-4.wikimedia.de"
+        "host": " testing02.wikimedia.customers.manitu.net"
     },
     {
-        "host": "test-spenden-5.wikimedia.de"
+        "host": " testing03.wikimedia.customers.manitu.net"
     },
     {
-        "host": "test-spenden-6.wikimedia.de"
+        "host": " testing04.wikimedia.customers.manitu.net"
     },
     {
-        "host": "test-spenden-7.wikimedia.de"
+        "host": " testing05.wikimedia.customers.manitu.net"
+    },
+    {
+        "host": " testing06.wikimedia.customers.manitu.net"
     }
 ]
