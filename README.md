@@ -28,3 +28,15 @@ deployment status. The Ansible playbook might do this automatically.
 The file contains an array of deployment objects. Each object must have at
 least a `host` key. The script orders the deployments by descending deploy
 date (in the key `deployedOn`).
+
+## Committing a new version of `deployments.json`
+
+Use the command 
+
+	commit_deployments
+	
+to commit a changed `deployments.json` to the remote repository. The
+command will run `git status`, `git add`, `git commit` and `git push
+origin master`. You need to run `commit_deployments` inside the checked
+out directory and need access credentials for the repository.
+

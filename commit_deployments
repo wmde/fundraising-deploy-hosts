@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ ! -z "$(git status --porcelain)" ]; then 
+	git add deployments.json
+	git commit -m "Updated deployment list"
+	git push origin main
+fi
