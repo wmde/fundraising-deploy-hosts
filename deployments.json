@@ -1,5 +1,11 @@
 [
     {
+        "host": " testing05.wikimedia.customers.manitu.net",
+        "branch": "manitu-deploy",
+        "repository": "https://github.com/wmde/FundraisingFrontend",
+        "deployedOn": "2020-08-24 13:43:22"
+    },
+    {
         "host": " testing06.wikimedia.customers.manitu.net",
         "branch": "manitu",
         "repository": "https://github.com/wmde/FundraisingFrontend",
@@ -16,8 +22,5 @@
     },
     {
         "host": " testing04.wikimedia.customers.manitu.net"
-    },
-    {
-        "host": " testing05.wikimedia.customers.manitu.net"
     }
 ]
