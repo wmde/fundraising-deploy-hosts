@@ -1,5 +1,11 @@
 [
     {
+        "host": " testing03.wikimedia.customers.manitu.net",
+        "branch": "address-notice",
+        "repository": "https://github.com/wmde/FundraisingFrontend",
+        "deployedOn": "2020-09-29 12:08:08"
+    },
+    {
         "host": " testing04.wikimedia.customers.manitu.net",
         "branch": "dependabot/composer/vlucas/phpdotenv-5.1.0",
         "repository": "https://github.com/wmde/FundraisingFrontend",
@@ -22,8 +28,5 @@
     },
     {
         "host": " testing02.wikimedia.customers.manitu.net"
-    },
-    {
-        "host": " testing03.wikimedia.customers.manitu.net"
     }
 ]
