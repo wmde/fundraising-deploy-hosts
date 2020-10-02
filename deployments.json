@@ -1,5 +1,11 @@
 [
     {
+        "host": " testing02.wikimedia.customers.manitu.net",
+        "branch": "address-provision-options",
+        "repository": "https://github.com/wmde/FundraisingFrontend",
+        "deployedOn": "2020-10-02 20:09:51"
+    },
+    {
         "host": " testing03.wikimedia.customers.manitu.net",
         "branch": "address-notice",
         "repository": "https://github.com/wmde/FundraisingFrontend",
@@ -25,8 +31,5 @@
     },
     {
         "host": " testing01.wikimedia.customers.manitu.net"
-    },
-    {
-        "host": " testing02.wikimedia.customers.manitu.net"
     }
 ]
