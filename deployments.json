@@ -1,5 +1,11 @@
 [
     {
+        "host": " testing05.wikimedia.customers.manitu.net",
+        "branch": "fix-mailer-template-path",
+        "repository": "https://github.com/wmde/FundraisingFrontend",
+        "deployedOn": "2020-11-04 10:10:55"
+    },
+    {
         "host": " testing06.wikimedia.customers.manitu.net",
         "branch": "cookie-notice",
         "repository": "https://github.com/wmde/FundraisingFrontend",
@@ -28,11 +34,5 @@
         "branch": "dependabot/composer/vlucas/phpdotenv-5.1.0",
         "repository": "https://github.com/wmde/FundraisingFrontend",
         "deployedOn": "2020-08-26 13:19:58"
-    },
-    {
-        "host": " testing05.wikimedia.customers.manitu.net",
-        "branch": "manitu-deploy",
-        "repository": "https://github.com/wmde/FundraisingFrontend",
-        "deployedOn": "2020-08-24 16:04:59"
     }
 ]
