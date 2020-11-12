@@ -1,5 +1,11 @@
 [
     {
+        "host": " testing04.wikimedia.customers.manitu.net",
+        "branch": "fix-localfile-validation",
+        "repository": "https://github.com/wmde/FundraisingFrontend",
+        "deployedOn": "2020-11-12 14:14:48"
+    },
+    {
         "host": " testing05.wikimedia.customers.manitu.net",
         "branch": "fix-mailer-template-path",
         "repository": "https://github.com/wmde/FundraisingFrontend",
@@ -28,11 +34,5 @@
         "branch": "address-notice",
         "repository": "https://github.com/wmde/FundraisingFrontend",
         "deployedOn": "2020-09-29 12:08:08"
-    },
-    {
-        "host": " testing04.wikimedia.customers.manitu.net",
-        "branch": "dependabot/composer/vlucas/phpdotenv-5.1.0",
-        "repository": "https://github.com/wmde/FundraisingFrontend",
-        "deployedOn": "2020-08-26 13:19:58"
     }
 ]
