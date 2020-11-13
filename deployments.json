@@ -1,5 +1,11 @@
 [
     {
+        "host": " testing06.wikimedia.customers.manitu.net",
+        "branch": "cookie-notice",
+        "repository": "https://github.com/wmde/FundraisingFrontend",
+        "deployedOn": "2020-11-13 18:41:08"
+    },
+    {
         "host": " testing04.wikimedia.customers.manitu.net",
         "branch": "fix-localfile-validation",
         "repository": "https://github.com/wmde/FundraisingFrontend",
@@ -10,12 +16,6 @@
         "branch": "fix-mailer-template-path",
         "repository": "https://github.com/wmde/FundraisingFrontend",
         "deployedOn": "2020-11-04 10:10:55"
-    },
-    {
-        "host": " testing06.wikimedia.customers.manitu.net",
-        "branch": "cookie-notice",
-        "repository": "https://github.com/wmde/FundraisingFrontend",
-        "deployedOn": "2020-10-30 18:30:12"
     },
     {
         "host": " testing01.wikimedia.customers.manitu.net",
