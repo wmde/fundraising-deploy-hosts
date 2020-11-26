@@ -3,7 +3,7 @@
         "host": " testing02.wikimedia.customers.manitu.net",
         "branch": "new-use-of-funds",
         "repository": "https://github.com/wmde/FundraisingFrontend",
-        "deployedOn": "2020-11-26 15:29:50"
+        "deployedOn": "2020-11-26 18:11:38"
     },
     {
         "host": " testing03.wikimedia.customers.manitu.net",
