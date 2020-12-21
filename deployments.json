@@ -1,15 +1,15 @@
 [
     {
+        "host": " testing05.wikimedia.customers.manitu.net",
+        "branch": "membership-incentive",
+        "repository": "https://github.com/wmde/FundraisingFrontend",
+        "deployedOn": "2020-12-21 15:21:28"
+    },
+    {
         "host": " testing04.wikimedia.customers.manitu.net",
         "branch": "update-confirmation",
         "repository": "https://github.com/wmde/FundraisingFrontend",
         "deployedOn": "2020-12-21 13:02:38"
-    },
-    {
-        "host": " testing05.wikimedia.customers.manitu.net",
-        "branch": "membership-incentive",
-        "repository": "https://github.com/wmde/FundraisingFrontend",
-        "deployedOn": "2020-12-21 10:57:38"
     },
     {
         "host": " testing01.wikimedia.customers.manitu.net",
