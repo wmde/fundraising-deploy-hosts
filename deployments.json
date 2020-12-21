@@ -3,7 +3,7 @@
         "host": " testing05.wikimedia.customers.manitu.net",
         "branch": "membership-incentive",
         "repository": "https://github.com/wmde/FundraisingFrontend",
-        "deployedOn": "2020-12-21 10:38:32"
+        "deployedOn": "2020-12-21 10:57:38"
     },
     {
         "host": " testing01.wikimedia.customers.manitu.net",
