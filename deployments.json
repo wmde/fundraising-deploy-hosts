@@ -1,5 +1,11 @@
 [
     {
+        "host": " testing03.wikimedia.customers.manitu.net",
+        "branch": "remove-trans-key",
+        "repository": "https://github.com/wmde/FundraisingFrontend",
+        "deployedOn": "2021-01-04 13:18:05"
+    },
+    {
         "host": " testing06.wikimedia.customers.manitu.net",
         "branch": "fix-missing-donation-address-notice",
         "repository": "https://github.com/wmde/FundraisingFrontend",
@@ -28,11 +34,5 @@
         "branch": "new-use-of-funds",
         "repository": "https://github.com/wmde/FundraisingFrontend",
         "deployedOn": "2020-11-26 18:11:38"
-    },
-    {
-        "host": " testing03.wikimedia.customers.manitu.net",
-        "branch": "fix-timestamp-cookie-bug",
-        "repository": "https://github.com/wmde/FundraisingFrontend",
-        "deployedOn": "2020-11-17 16:59:10"
     }
 ]
