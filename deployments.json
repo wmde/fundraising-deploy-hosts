@@ -3,7 +3,7 @@
         "host": " testing02.wikimedia.customers.manitu.net",
         "branch": "master",
         "repository": "https://github.com/wmde/FundraisingFrontend",
-        "deployedOn": "2021-01-26 16:30:29"
+        "deployedOn": "2021-01-26 17:50:50"
     },
     {
         "host": " testing03.wikimedia.customers.manitu.net",
