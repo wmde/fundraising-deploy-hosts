@@ -1,5 +1,11 @@
 [
     {
+        "host": " testing02.wikimedia.customers.manitu.net",
+        "branch": "master",
+        "repository": "https://github.com/wmde/FundraisingFrontend",
+        "deployedOn": "2021-01-26 16:30:29"
+    },
+    {
         "host": " testing03.wikimedia.customers.manitu.net",
         "branch": "remove-trans-key",
         "repository": "https://github.com/wmde/FundraisingFrontend",
@@ -28,11 +34,5 @@
         "branch": "fix-ff-radio-bug",
         "repository": "https://github.com/wmde/FundraisingFrontend",
         "deployedOn": "2020-12-07 12:46:05"
-    },
-    {
-        "host": " testing02.wikimedia.customers.manitu.net",
-        "branch": "new-use-of-funds",
-        "repository": "https://github.com/wmde/FundraisingFrontend",
-        "deployedOn": "2020-11-26 18:11:38"
     }
 ]
