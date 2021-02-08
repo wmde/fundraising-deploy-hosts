@@ -1,5 +1,11 @@
 [
     {
+        "host": " testing02.wikimedia.customers.manitu.net",
+        "branch": "master",
+        "repository": "https://github.com/wmde/FundraisingFrontend",
+        "deployedOn": "2021-02-08 15:52:46"
+    },
+    {
         "host": " testing05.wikimedia.customers.manitu.net",
         "branch": "silex-to-symfony",
         "repository": "https://github.com/wmde/FundraisingFrontend",
@@ -16,12 +22,6 @@
         "branch": "fix-campaign-loading",
         "repository": "https://github.com/wmde/FundraisingFrontend",
         "deployedOn": "2021-01-26 19:42:24"
-    },
-    {
-        "host": " testing02.wikimedia.customers.manitu.net",
-        "branch": "master",
-        "repository": "https://github.com/wmde/FundraisingFrontend",
-        "deployedOn": "2021-01-26 17:50:50"
     },
     {
         "host": " testing03.wikimedia.customers.manitu.net",
