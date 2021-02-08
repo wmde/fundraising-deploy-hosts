@@ -1,5 +1,11 @@
 [
     {
+        "host": " testing05.wikimedia.customers.manitu.net",
+        "branch": "silex-to-symfony",
+        "repository": "https://github.com/wmde/FundraisingFrontend",
+        "deployedOn": "2021-02-08 10:59:50"
+    },
+    {
         "host": " testing04.wikimedia.customers.manitu.net",
         "branch": "update-confirmation",
         "repository": "https://github.com/wmde/FundraisingFrontend",
@@ -28,11 +34,5 @@
         "branch": "fix-missing-donation-address-notice",
         "repository": "https://github.com/wmde/FundraisingFrontend",
         "deployedOn": "2020-12-22 19:27:50"
-    },
-    {
-        "host": " testing05.wikimedia.customers.manitu.net",
-        "branch": "membership-incentive",
-        "repository": "https://github.com/wmde/FundraisingFrontend",
-        "deployedOn": "2020-12-21 15:21:28"
     }
 ]
