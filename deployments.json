@@ -1,5 +1,11 @@
 [
     {
+        "host": " testing05.wikimedia.customers.manitu.net",
+        "branch": "silex-to-symfony",
+        "repository": "https://github.com/wmde/FundraisingFrontend",
+        "deployedOn": "2021-02-09 16:22:17"
+    },
+    {
         "host": " testing04.wikimedia.customers.manitu.net",
         "branch": "update-confirmation",
         "repository": "https://github.com/wmde/FundraisingFrontend",
@@ -10,12 +16,6 @@
         "branch": "master",
         "repository": "https://github.com/wmde/FundraisingFrontend",
         "deployedOn": "2021-02-08 15:52:46"
-    },
-    {
-        "host": " testing05.wikimedia.customers.manitu.net",
-        "branch": "silex-to-symfony",
-        "repository": "https://github.com/wmde/FundraisingFrontend",
-        "deployedOn": "2021-02-08 15:14:54"
     },
     {
         "host": " testing01.wikimedia.customers.manitu.net",
