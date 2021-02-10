@@ -1,5 +1,11 @@
 [
     {
+        "host": " testing06.wikimedia.customers.manitu.net",
+        "branch": "cookie-banner-link",
+        "repository": "https://github.com/wmde/FundraisingFrontend",
+        "deployedOn": "2021-02-10 16:53:28"
+    },
+    {
         "host": " testing05.wikimedia.customers.manitu.net",
         "branch": "silex-to-symfony",
         "repository": "https://github.com/wmde/FundraisingFrontend",
@@ -28,11 +34,5 @@
         "branch": "remove-trans-key",
         "repository": "https://github.com/wmde/FundraisingFrontend",
         "deployedOn": "2021-01-04 13:18:05"
-    },
-    {
-        "host": " testing06.wikimedia.customers.manitu.net",
-        "branch": "fix-missing-donation-address-notice",
-        "repository": "https://github.com/wmde/FundraisingFrontend",
-        "deployedOn": "2020-12-22 19:27:50"
     }
 ]
