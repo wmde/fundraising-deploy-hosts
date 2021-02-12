@@ -3,7 +3,7 @@
         "host": " testing05.wikimedia.customers.manitu.net",
         "branch": "silex-to-symfony",
         "repository": "https://github.com/wmde/FundraisingFrontend",
-        "deployedOn": "2021-02-12 10:58:46"
+        "deployedOn": "2021-02-12 12:32:40"
     },
     {
         "host": " testing06.wikimedia.customers.manitu.net",
