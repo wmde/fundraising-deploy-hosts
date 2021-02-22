@@ -3,7 +3,7 @@
         "host": " testing01.wikimedia.customers.manitu.net",
         "branch": "test-new-error-logging",
         "repository": "https://github.com/wmde/FundraisingFrontend",
-        "deployedOn": "2021-02-22 16:00:15"
+        "deployedOn": "2021-02-22 16:16:17"
     },
     {
         "host": " testing03.wikimedia.customers.manitu.net",
