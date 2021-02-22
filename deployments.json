@@ -1,5 +1,11 @@
 [
     {
+        "host": " testing03.wikimedia.customers.manitu.net",
+        "branch": "dependabot/npm_and_yarn/skins/laika/airbrake/browser-2.1.1",
+        "repository": "https://github.com/wmde/FundraisingFrontend",
+        "deployedOn": "2021-02-22 14:58:36"
+    },
+    {
         "host": " testing05.wikimedia.customers.manitu.net",
         "branch": "silex-to-symfony",
         "repository": "https://github.com/wmde/FundraisingFrontend",
@@ -28,11 +34,5 @@
         "branch": "fix-campaign-loading",
         "repository": "https://github.com/wmde/FundraisingFrontend",
         "deployedOn": "2021-01-26 19:42:24"
-    },
-    {
-        "host": " testing03.wikimedia.customers.manitu.net",
-        "branch": "remove-trans-key",
-        "repository": "https://github.com/wmde/FundraisingFrontend",
-        "deployedOn": "2021-01-04 13:18:05"
     }
 ]
