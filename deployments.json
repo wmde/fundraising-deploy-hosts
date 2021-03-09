@@ -1,5 +1,11 @@
 [
     {
+        "host": " testing02.wikimedia.customers.manitu.net",
+        "branch": "hall-of-fame",
+        "repository": "https://github.com/wmde/FundraisingFrontend",
+        "deployedOn": "2021-03-09 17:25:03"
+    },
+    {
         "host": " testing01.wikimedia.customers.manitu.net",
         "branch": "test-new-error-logging",
         "repository": "https://github.com/wmde/FundraisingFrontend",
@@ -28,11 +34,5 @@
         "branch": "update-confirmation",
         "repository": "https://github.com/wmde/FundraisingFrontend",
         "deployedOn": "2021-02-08 16:08:21"
-    },
-    {
-        "host": " testing02.wikimedia.customers.manitu.net",
-        "branch": "master",
-        "repository": "https://github.com/wmde/FundraisingFrontend",
-        "deployedOn": "2021-02-08 15:52:46"
     }
 ]
